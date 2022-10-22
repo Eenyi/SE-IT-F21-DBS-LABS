@@ -117,13 +117,25 @@
             </section>
             <h2>Online Submissions</h2>
             <section class="wp-sec pl">
-                <p>Under Development</p>
-                <form action="" method="post">
-                    <input type="text" placeholder="Name">
-                    <input type="text" placeholder="Roll Number">
-                    <input type="text" placeholder="File Link">
-                    <input type="text" placeholder="Lab Number">
+                <form action="" method="post" class="form-style">
+                    <h4>Send To:</h4>
+                    <select class="input-style opt-style" id="opt">  
+                        <option value = "OS">Osama Sultan - TA / Mor</option>  
+                        <option value = "UJ">Usama Javed - TA / Mor</option>  
+                        <option value = "SI">Syed M. Inshal Hussain - TA / Aft</option>  
+                        <option value = "AC">Abd Ul Rab Chatha - TA / Aft</option>  
+                    </select>
+                    <input type="text" placeholder="Name" class="input-style" id="name" required>
+                    <input type="text" placeholder="Roll Number" class="input-style" id="rollno" required>
+                    <input type="text" placeholder="Lab Number / Project" class="input-style" id="labno" required>
+                    <input type="text" placeholder="File Link" class="input-style" id="filelink" required>
+                    <input type="button" value="Send" class="btn-style" onclick="whatsapp()">
                 </form>
+                <h4>How to Submit?</h4>
+                <h5>1. Make a [Roll Number].zip file of your lab.</h5>
+                <h5>2. Upload your [Roll Number].zip on your drive.</h5>
+                <h5>3. Copy link and paste above.</h5>
+                <h5>4. Send it to only one TA.</h5>
             </section>
         </div>
     </div>

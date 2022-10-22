@@ -119,3 +119,42 @@ h1{
     font-style: italic;
     color: darkgray;
 }
+
+.form-style {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-style {
+    width: 80%;
+    height: 23px;
+    margin: 8px;
+    outline: none;
+    border: 2px solid dodgerblue;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+
+.opt-style {
+    height: 28px;
+    width: 82%;
+}
+
+.btn-style {
+    color: white;
+    background-color: dodgerblue;
+    border: 3px solid dodgerblue;
+    border-radius: 5px;
+    height: 33px;
+    width: 65px;
+    margin-top: 10px;
+}
+
+.btn-style:hover {
+    background-color: red;
+    border: 3px solid red;
+    transition: .5s;
+}
