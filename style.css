@@ -158,3 +158,35 @@ h1{
     border: 3px solid red;
     transition: .5s;
 }
+
+.wp-assignment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    gap: 5px;
+}
+
+.wp-assignment span:nth-child(1) {
+    background-color: red;
+    color: white;
+    font-size: 9px;
+    font-style: italic;
+    padding: 2px;
+    border-radius: 8px;
+}
+
+.wp-assignment span:nth-child(2) {
+    font-weight: 900;
+    font-style: italic;
+}
+
+.wp-assignment span:nth-child(3) {
+    font-weight: 900;
+    font-style: italic;
+    font-size: 12px;
+
+    background-color: greenyellow;
+    color: black;
+    padding: 0 3px 0 3px;
+}
